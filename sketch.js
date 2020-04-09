@@ -25,7 +25,7 @@ function draw() {
   background(255,255,255);  
   Engine.update(engine);
 
-  arr1.push(rain = new raindrop(random(0,1500), random(0,600),5,5));
+  arr1.push(rain = new raindrop(random(0,1500), 0,5,5));
   for(var i = 0;i<arr1.length;i++){
     arr1[i].display();
 }
